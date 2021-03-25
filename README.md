@@ -1,2 +1,2 @@
-# sanctum
+# Sanctum
 This is The Sanctum
