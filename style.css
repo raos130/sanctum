@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: white;
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
   font-weight: 300;
   height: 100%;
 }
@@ -22,23 +22,68 @@ body {
   height: 100vh;
 }
 
+#section3 {
+  height: 100vh;
+}
+
 .title {
   font-weight: 400;
+  color: #5D58C1;
   font-size: 8vw;
   line-height: 8.6vw;
-  width: 50vw;
-  margin-left: 13vw;
-  margin-top: 9vw;
+  width: 60vw;
+  margin-left: 14vw;
+  margin-top: 11vw;
+  white-space: pre;
+}
+
+.h2-title {
+  font-weight: 400;
+  color: #5D58C1;
+  font-size: 4vw;
+  line-height: 8.6vw;
+  width: 60vw;
+  margin-left: 14vw;
+  margin-top: 11vw;
+  white-space: pre;
+}
+
+/* https://www.geeksforgeeks.org/how-to-create-text-changing-animation-effect-using-css/ */
+span::before {
+  content: "Sanctum";
+  animation: animate infinite 5s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Sanctum";
+  }
+
+  20% {
+    content: "पवित्र स्थान";
+  }
+
+  40% {
+    content: "святилище";
+  }
+
+  60% {
+    content: "سانتوم";
+  }
+
+  80% {
+    content: "סנטום";
+  }
 }
 
 a:link {
-  color: black;
+  color: #5D58C1;
   text-decoration: none;
 }
 
 a.left {
-  padding-left: 2vw;
   position: relative;
+  margin-left: 2vw;
 }
 
 a.left:before {
@@ -48,14 +93,20 @@ a.left:before {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: black;
   visibility: hidden;
+  background-color: #5D58C1;
   transition: all 0.4s ease-in-out;
 }
 
 a.left:hover:before {
   visibility: visible;
   width: 100%;
+  color: #5D58C1;
+}
+
+a:visited {
+  color: #5D58C1;
+  font-weight: 500;
 }
 
 .fixed-header, .fixed-footer {
@@ -66,6 +117,7 @@ a.left:hover:before {
   justify-content: space-between;
   padding-bottom: 2vw;
   width: 100%;
+  color: #5D58C1;
   position: fixed;
 }
 
@@ -75,6 +127,7 @@ a.left:hover:before {
 }
 
 .fixed-footer {
+  font-size: 1vw;
   text-align: right;
   bottom: 0;
 }
@@ -90,7 +143,110 @@ a.left:hover:before {
   width: 50vw;
   font-weight: 400;
   font-size: 1.4vw;
-  margin-left: 13vw;
+  margin-left: 14vw;
   margin-top: 9vw;
   height: 20vw;
+}
+
+.spaces {
+  margin-left: 14vw;
+  height: 70vw;
+  width: 49vw;
+}
+
+.row {
+  padding-bottom: 1vw;
+  display: flex;
+  justify-content: space-between;
+  height: 25vw;
+  width: 53vw;
+}
+
+.box {
+  background-color: #5D58C1;
+  border-radius: 1.4vw;
+  width: 17vw;
+  height: 25vw;
+}
+
+.box-mandir {
+  background: url("images/mandir-bg.png");
+  object-fit: scale-down;
+  border-radius: 1.4vw;
+  width: 17vw;
+  height: 25vw;
+}
+
+.box-mandir:hover {
+  /* webkit-filter: blur(2px);
+  filter: blur(2px); */
+  background: url("images/mandir-bg1.png");
+  /* background-color: #5D58C1; */
+}
+
+.box:hover {
+  /* webkit-filter: blur(2px);
+  filter: blur(2px); */
+  box-sizing: border-box;
+  background-color: #5D58C1;
+  border: 0.5vw solid orange;
+}
+
+/* CONTRIBUTE */
+/* CONTRIBUTE */
+/* CONTRIBUTE */
+/* CONTRIBUTE */
+label {
+  font-weight: 400;
+  color: #5D58C1;
+  font-size: 1.4vw;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  color: #5D58C1;
+  font-family: inherit;
+  font-weight: 400;
+  padding: 1.1vw;
+  border: 1px solid #5D58C1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 1.4vw;
+}
+
+input[type=submit] {
+  width: 8vw;
+  font-size: 1.4vw;
+  height: 4vw;
+  font-family: inherit;
+  background-color: white;
+  color: #5D58C1;
+  border: 1px solid #5D58C1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=file] {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5D58C1;
+  color: white;
+}
+
+.con-container {
+  margin-top: -4vw;
+  padding-bottom: 4vw;
+  border-radius: 5px;
+  margin-left: 14vw;
+  width: 50vw;
+}
+
+.form-control {
+  color: #5D58C1;
 }

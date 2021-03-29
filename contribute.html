@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>The Sanctum</title>
+</head>
+
+<body>
+
+  <div class="main" id="section1">
+    <a href="#section2">></a>
+
+    <div class="fixed-header">
+      <div class="container">
+        <nav>
+          <a href="index.html" class="left">Spaces</a>
+          <a href="index.html" class="left">About</a>
+          <a href="contribute.html" class="left">Contribute</a>
+
+        </nav>
+      </div>
+    </div>
+
+    <div class="h2-title">Contribute </div>
+    <div class="text-box">
+      <p> The Sanctum can only work as a collaborative effort and is dependent on the help of followers of religion who frequent places of worship.
+        To make changes or correct the ontent on an existing page, send a request here. To contribute images and text pertaining to
+        your religion, add files down below.
+        The Sanctum can only work as a collaborative effort and is dependent on the help of followers of religion who frequent places of worship.
+        To make changes or correct the ontent on an existing page, send a request here. To contribute images and text pertaining to
+        your religion, add files down below.</p>
+    </div>
+
+  </div>
+
+  <div class="main" id="section2">
+    <a href="#section1">></a>
+
+
+    <!-- code for contact form https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
+    <div class="con-container">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <!--
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+
+        <label for="country">Place of Worship</label>
+        <select id="country" name="country">
+          <option value="Zoroastrianism">Agyari</option>
+          <option value="Christianity">Church</option>
+          <option value="Taoism">Daoguan</option>
+          <option value="Jainism">Derasar</option>
+          <option value="Sikhism">Gurdwara</option>
+          <option value="Hinduism">Mandir</option>
+          <option value="Islam">Mosque</option>
+          <option value="Japan">Shinto</option>
+          <option value="Judaism">Synagogue</option>
+          <option value="Other">Other</option>
+
+
+        </select>
+
+        <label for="subject">Corrections/Changes</label>
+        <textarea id="subject" name="subject" placeholder="Any corrections or changes..." style="height:200px"></textarea>
+
+        <label for="subject">Additional Information</label>
+        <textarea id="subject" name="subject" placeholder="Include additional information..." style="height:200px"></textarea>
+
+        <label for="subject"> Image Upload</label>
+        <input type="file" class="form-control" id="image" name="image">
+        <input type="file" class="form-control" id="image" name="image">
+
+        <br><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="fixed-footer">
+      <div class="container"> &copy; 2021 <i>The Sanctum</i></div>
+    </div>
+
+    <div id="error_message" style="width:100%; height:100%; display:none; ">
+                    <h4>Error</h4>
+                    Sorry, there was an error sending your form.
+              </div>
+              <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h2>Success! Your Message was Sent Successfully.</h2>
+              </div>
+
+
+
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+<script src="script.js">
+</script>

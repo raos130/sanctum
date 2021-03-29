@@ -1,0 +1,170 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  height: 100vh;
+  padding: 6vw;
+}
+
+body {
+  background-color: #F85407;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+  font-weight: 300;
+  height: 100%;
+  margin: 0;
+  overflow: hidden
+}
+
+a:link {
+  color: #5D58C1;
+  text-decoration: none;
+}
+
+a.left {
+  position: relative;
+  margin-left: 2vw;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  background-color: #FAB61D;
+  transition: all 0.4s ease-in-out;
+}
+
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+  color: #FAB61D;
+}
+
+a:visited {
+  color: #FAB61D;
+  font-weight: 500;
+}
+
+.fixed-header, .fixed-footer {
+  font-family: 'IBM Plex Mono';
+  display: flex;
+  /* border: 1px solid orange; */
+  padding-top: 2vw;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+  width: 100%;
+  color: #FAB61D;
+  position: fixed;
+}
+
+.fixed-header {
+  text-align: right;
+  top: 0;
+}
+
+.fixed-footer {
+  font-size: 1vw;
+  text-align: right;
+  bottom: 0;
+}
+
+.container {
+  width: 77%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.text-box {
+  color: #5D58C1;
+  width: 50vw;
+  font-weight: 400;
+  font-size: 1.4vw;
+  margin-left: 14vw;
+  margin-top: 9vw;
+  height: 20vw;
+}
+
+.hindu1 {
+  width: 605px;
+  height: 621px;
+  left: 2px;
+  top: 336px;
+}
+/*
+.hindu1:hover {
+  width: [IMAGE_WIDTH_IN_PIXELS]px;
+   height: [IMAGE_HEIGHT_IN_PIXELS]px;
+  background-image: url('images/hindu/hindu1.1.png');
+} */ */
+
+
+/* .hindu1:hover{
+  background: url("images/hindu/hindu1.1.png");
+} */
+.hindu2 {
+  /* praying hands */
+  position: absolute;
+  z-index: 3;
+  left: 307px;
+  top: 173px;
+}
+
+.hindu3 {
+  /* thali */
+  position: absolute;
+  left: 752px;
+  top: 50px;
+}
+
+.hindu4 {
+  /* flowers */
+  position: absolute;
+  left: 603px;
+  top: 88px;
+  z-index: 2;
+}
+
+.hindu5 {
+  /* shoe */
+  position: absolute;
+  left: 206px;
+  top: 04px;
+  z-index: -3;
+}
+
+.hindu6 {
+  /* cymbals */
+  position: absolute;
+  left: 603px;
+  top: 399px;
+}
+
+.hindu7 {
+  /* donation boxes */
+  position: absolute;
+  z-index: -90;
+  left: -54px;
+  top: -82px;
+}
+
+.hindu8 {
+  /* prasad */
+  position: absolute;
+  left: 891px;
+  top: 0px;
+}
+
+.hindu9 {
+  /* camera */
+  position: absolute;
+  left: 503px;
+  top: 44px;
+}
+
+/* .hindu6:hover {
+    background: url("images/hindu/hindu6.1.png") no-repeat;
+} */
