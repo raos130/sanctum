@@ -1,0 +1,129 @@
+html {
+  background-color: #5D58C1;
+  overflow: hidden;
+}
+
+.bg {
+  overflow: hidden -webkit-background-size: cover;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+}
+
+#pics {
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+}
+
+#pics li {
+  list-style: none;
+}
+
+#pics img {
+  padding: 20px 0;
+}
+
+/* .og {
+  width: 1440px;
+  height: 900px;
+  margin-top: -5vw;
+  margin-left: -0.5vw;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.og:hover {
+  background-image: url('images/hindu/hindubl1.1.png');
+} */
+
+p{
+  z-index: 100;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+  font-weight: 400;
+  color: #F85407;
+  font-size: 1.4vw;
+  line-height: 2vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  white-space: pre-line;
+}
+
+.box{
+    width: 30vw;
+}
+
+#toggleText{
+  z-index: 100;
+  width: 25vw;
+  height: 18vw;
+  border-radius: 10px;
+  background-color: #FEBF3B;
+  border: 2px solid #F85407;
+  z-index: 23;
+}
+
+
+#ID_triangle{
+  z-index: -12;
+  margin-top: -155vw;
+  margin-left: -0.6vw;
+  margin-bottom:2.1vw;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  visibility: hidden;
+  display:none;
+}
+
+#ID_triangle:hover{
+    visibility: visible;
+    display: block;
+}
+
+.title {
+  width: 300px;
+  background-color: #FEBF3B;
+  border: 2px solid #F85407;
+  color: #F85407;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+}
+
+.caption {
+  width: 300px;
+  background-color: #FEBF3B;
+  border: 2px solid #F85407;
+  color: #F85407;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+}
+
+#img_ID {
+  margin-top: -5vw;
+  margin-left: -0.5vw;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.current {
+  background-image: "images/hindu/hindu.png"
+}
+
+.current.change {
+  background-image: "images/hindu/hindu0.png"
+}
+
+/*
+img{
+  height:60%;
+  width: 60%;
+} */

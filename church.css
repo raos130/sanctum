@@ -1,0 +1,177 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  height: 100vh;
+  padding: 6vw;
+}
+
+body {
+  background-color: #A8B8D2;
+    background-image: url('images/church/main.png');
+    background-size:     cover;                    
+      background-repeat:   no-repeat;
+      background-position: center center;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+  font-weight: 300;
+  height: 100%;
+  margin: 0;
+  overflow: hidden
+}
+
+a:link {
+  color: #EFF9FC;
+  text-decoration: none;
+}
+
+a.left {
+  position: relative;
+  margin-left: 2vw;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  background-color: #EFF9FC;
+  transition: all 0.4s ease-in-out;
+}
+
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+  color: #EFF9FC;
+}
+
+a:visited {
+  color: #EFF9FC;
+  font-weight: 500;
+}
+
+.fixed-header, .fixed-footer {
+  font-family: 'IBM Plex Mono';
+  display: flex;
+  /* border: 1px solid orange; */
+  padding-top: 2vw;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+  width: 100%;
+  color: #EFF9FC;
+  position: fixed;
+}
+
+.fixed-header {
+  text-align: right;
+  top: 0;
+}
+
+.fixed-footer {
+  font-size: 1vw;
+  text-align: right;
+  bottom: 0;
+}
+
+.container {
+  width: 77%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.text-box {
+  color: #EFF9FC;
+  width: 50vw;
+  font-weight: 400;
+  font-size: 1.4vw;
+  margin-left: 14vw;
+  margin-top: 9vw;
+  height: 20vw;
+}
+
+.hindu1 {
+  /* idol */
+    position: absolute;
+  left: -20px;
+  top: 16px;
+}
+
+.hindu2 {
+  /* praying hands */
+  position: absolute;
+  z-index: 3;
+  left: 307px;
+  top: 173px;
+}
+
+.hindu3 {
+  /* thali */
+  position: absolute;
+  left: 752px;
+  top: 220px;
+}
+
+.hindu4 {
+  /* flowers */
+  position: absolute;
+  left: 463px;
+  top: 138px;
+  z-index: 2;
+}
+
+.hindu5 {
+  /* shoe */
+  position: absolute;
+  left: 480px;
+  top: -31px;
+  z-index: -1;
+}
+
+.hindu6 {
+  /* cymbals */
+  position: absolute;
+  left: 113px;
+  top: 362px;
+}
+
+.hindu7 {
+  /* donation boxes */
+  position: absolute;
+  z-index: -90;
+  left: -14px;
+  top: -112px;
+}
+
+.hindu8 {
+  /* prasad */
+  position: absolute;
+  z-index: -1;
+  left: 991px;
+  top: 0px;
+}
+
+.hindu9 {
+  /* camera */
+  position: absolute;
+  left: 753px;
+  top: 94px;
+}
+
+
+/* .hindu6:hover {
+    background: url("images/hindu/hindu6.1.png") no-repeat;
+} */
+
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(IBM/IBM-Plex-Sans/IBMPlexSans-Regular.otf);
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(IBM/IBM-Plex-Mono/IBMPlexMono-ExtraLight.otf);
+}

@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <title>bleh</title>
+ </head>
+
+ <body>
+<!-- onclick="hide_image('caption'); -->
+   <div id="images">
+    <div id="image">
+        <div id="caption">
+            <img src="http://placekitten.com/275/200" />
+          <div id="caption1">
+            <p>Please remove footwear before entering the mandir, as it is considered impure to wear the dirt from the streets into such an auspicious space.
+          कृपया मंदिर में प्रवेश करने से पहले जूते उतार दें जैसा कि सड़कों से गंदगी को ऐसे शुभ स्थान पर पहनना अशुद्ध माना जाता है।
+          </p>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+ </body>
+
+ </html>
+
+ <style>
+ #images {
+     width: 275px;
+     height: 200px;
+ }
+
+ #image {
+   position: relative;
+   width: 275px;
+   height: 200px;
+   overflow: hidden;
+ }
+
+ #image > div {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+
+
+ }
+
+  #image img {
+     display: block;
+     width: 275px;
+     height: 200px;
+ }
+
+ #caption {
+   border-radius: 10px;
+     background: #FAB61D;
+     border: 1.5px solid #F85407;
+     color: #F85407;
+     display: none;
+     overflow: hidden;
+ }
+
+ p {
+
+   white-space: pre-line;
+   line-height: 2.5vw;
+   padding: 10px;
+   margin: auto 0;
+ }
+
+
+ </style>
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ <script>
+ $(document).ready(function () {
+         $("#image img").click(function () {
+             $("#caption1").slideToggle();
+         });
+ });
+
+
+ function showhide()
+ {
+      var div = document.getElementById("caption");
+      if (div.style.display !== "none")
+      {
+          div.style.display = "none";
+      }
+      else
+      {
+          div.style.display = "block";
+      }
+ }
+
+
+     </script>

@@ -37,6 +37,10 @@ body {
   white-space: pre;
 }
 
+p{
+  white-space: pre-wrap;
+}
+
 .h2-title {
   font-weight: 400;
   color: #5D58C1;
@@ -142,7 +146,8 @@ a:visited {
   color: #5D58C1;
   width: 50vw;
   font-weight: 400;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
+  line-height: 2.1vw;
   margin-left: 14vw;
   margin-top: 9vw;
   height: 20vw;
@@ -151,42 +156,121 @@ a:visited {
 .spaces {
   margin-left: 14vw;
   height: 70vw;
-  width: 49vw;
+  width: 30vw;
 }
 
 .row {
   padding-bottom: 1vw;
   display: flex;
   justify-content: space-between;
-  height: 25vw;
+  height: 17vw;
   width: 53vw;
 }
 
 .box {
   background-color: #5D58C1;
   border-radius: 1.4vw;
+    height: 17vw;
   width: 17vw;
-  height: 25vw;
 }
 
 .box-mandir {
-  background: url("images/mandir-bg.png");
-  object-fit: scale-down;
+  background-image: url("images/mandir-bg.png");
+  background-size: cover;
   border-radius: 1.4vw;
+    height: 17vw;
   width: 17vw;
-  height: 25vw;
 }
 
 .box-mandir:hover {
-  /* webkit-filter: blur(2px);
-  filter: blur(2px); */
-  background: url("images/mandir-bg1.png");
-  /* background-color: #5D58C1; */
+  /* background: linear-gradient(to bottom, #fab61d 0%, #f85407 100%); */
+  background: url("images/mandir-bg2.png");
+   background-size: cover;
 }
 
+.box-mosque {
+  background-image: url("images/mosque-bg.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height: 17vw;
+  width: 17vw;
+}
+
+
+.box-cathe {
+  background-image: url("images/cathe-bg1.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height: 17vw;
+  width: 17vw;
+}
+
+/* .box-cathe:hover {
+  background: url("images/cathe-bg1.png");
+    background-size: cover;
+} */
+
+.box-syn {
+  background-image: url("images/syn-bg.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height: 17vw;
+  width: 17vw;
+}
+
+.box-syn:hover {
+  /* background: linear-gradient(to bottom, #fab61d 0%, #f85407 100%); */
+  background: url("images/syn-bg1.png");
+   background-size: cover;
+}
+
+.box-bahai{
+  background-image: url("images/bahai-bg.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height: 17vw;
+  width: 17vw;
+}
+
+.box-egypt {
+  background-image: url("images/egypt-bg.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height:  17vw;
+  width: 17vw;
+}
+
+.box-roman {
+  background-image: url("images/roman-bg.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height:  17vw;
+  width: 17vw;
+}
+
+.box-buddh{
+  background-image: url("images/buddh-bg.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+    height: 17vw;
+  width: 17vw;
+}
+
+.box-church {
+  background-image: url("images/church-bg1.png");
+  background-size: cover;
+  border-radius: 1.4vw;
+  height:  17vw;
+  width: 17vw;
+}
+
+.box-church:hover {
+  background: url("images/church-bg2.png");
+    background-size: cover;
+}
+
+
 .box:hover {
-  /* webkit-filter: blur(2px);
-  filter: blur(2px); */
   box-sizing: border-box;
   background-color: #5D58C1;
   border: 0.5vw solid orange;
@@ -249,4 +333,14 @@ input[type=submit]:hover {
 
 .form-control {
   color: #5D58C1;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(IBM/IBM-Plex-Sans/IBMPlexSans-Regular.otf);
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(IBM/IBM-Plex-Mono/IBMPlexMono-ExtraLight.otf);
 }

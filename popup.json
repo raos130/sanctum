@@ -1,0 +1,45 @@
+{
+  "popup": [
+    {
+      "latin": "Please remove footwear before entering the mandir, as it is considered impure to wear the dirt from the streets into such an auspicious space.",
+      "hindi": "कृपया मंदिर में प्रवेश करने से पहले जूते उतार दें जैसा कि सड़कों से गंदगी को ऐसे शुभ स्थान पर पहनना अशुद्ध माना जाता है।",
+    },
+    {
+      "latin": "Remember to bring an offering for the diety.",
+      "hindi": "भगवान के लिए प्रसाद लाना याद रखें।",
+    },
+     {
+      "latin": "No photography permitted inside the mandir.",
+      "hindi": "मंदिर के अंदर कोई फोटोग्राफी की अनुमति नहीं है।",
+    },
+     {
+      "latin": "Before entering, say namaste as a way to to greet and acknowledge the divine spirit within the mandir. ",
+      "hindi": "अपने आगमन की सूचना देने के लिए घंटी बजाएं। घंटी की आवाज को शुभ माना जाता है क्योंकि यह बुराई को दूर करती है और देवत्व का स्वागत करती है।",
+    },
+    {
+      "latin": "Ring the bell to inform the deity of your arrival. The sound of the bell is considered auspicious as it dispels evil and welcomes divinity. ",
+      "hindi": "प्रवेश करने से पहले, नमस्ते को नमस्कार करने और मंदिर के भीतर दिव्य आत्मा को स्वीकार करने के तरीके के रूप में कहें।",
+    },
+      {
+      "latin": "Take blessings from the idol and place your offerings as a sign of love and respect for the deity.",
+      "hindi": "मूर्ति से आशीर्वाद लें और अपने प्रसाद को एक संकेत के रूप में रखें देवता के लिए प्यार और सम्मान।",
+    },
+    {
+      "latin": "Take this time to pray to the diety or to reflect.",
+      "hindi": "इस समय को प्रार्थना करने या प्रतिबिंबित करने के लिए ले लो।",
+    },
+      {
+      "latin": "The aarti, which is way of worshipping and respecting the deity, a is about to begin.",
+      "hindi": "आरती, जो देवता की पूजा और सम्मान करने का तरीका है, एक शुरुआत होने वाली है।",
+    },
+       {
+      "latin": "The pandit has handed you a pair of manjiras, which are used to accompany devotional music.",
+      "hindi": "पंडित ने आपको मंजीरों की एक जोड़ी सौंपी है, जिनका उपयोग भक्ति संगीत के साथ किया जाता है।",
+    },
+    {
+      "latin": "Please deposit some money to support the pandits and the mantainece of the mandir.",
+      "hindi": "पंडितों और मन्दिर के गणतंत्र का समर्थन करने के लिए कुछ धन जमा करें।",
+    }
+
+
+  ]}
