@@ -1,3 +1,124 @@
+/* Start of Trudy's Code */
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.eng {
+  z-index: 100;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+  font-weight: 400;
+  color: #F85407;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  white-space: pre-line;
+}
+
+.hind {
+  z-index: 100;
+  font-family: 'IBM Plex Sans', 'Noto-Sans';
+  font-weight: 400;
+  color: #F85407;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2vw;
+  line-height: 1.7vw;
+}
+
+.popup {
+  z-index: 100;
+  width: 20vw;
+  border-radius: 10px;
+  background-color: #FAB11C;
+  border: 2px solid #F85407;
+  display: none;
+}
+
+.popup-hindu1 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+}
+
+.popup-hindu2 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu4 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu5 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu6 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu7 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu8 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu9 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu10 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+.popup-hindu11 {
+  position: absolute;
+  left: 50px;
+  top: 4vw;
+  padding: 10px;
+  z-index: 12;
+}
+
+/* End of Trudy's Code */
 html {
   scroll-behavior: smooth;
 }
@@ -90,8 +211,9 @@ a:visited {
 
 .hindu1 {
   /* idol */
-    position: absolute;
+  position: absolute;
   left: -20px;
+  z-index: 1;
   top: 16px;
 }
 
@@ -100,7 +222,7 @@ a:visited {
   position: absolute;
   z-index: 3;
   left: 307px;
-  top: 173px;
+  top: 193px;
 }
 
 .hindu3 {
@@ -114,54 +236,65 @@ a:visited {
   /* flowers */
   position: absolute;
   left: 463px;
-  top: 138px;
+  top: 408px;
   z-index: 2;
 }
 
 .hindu5 {
   /* shoe */
   position: absolute;
-  left: 480px;
-  top: -31px;
-  z-index: -1;
+  left: 580px;
+  top: -40px;
 }
 
 .hindu6 {
   /* cymbals */
   position: absolute;
   left: 113px;
-  top: 362px;
+  top: 422px;
+  z-index: 3;
 }
 
 .hindu7 {
   /* donation boxes */
   position: absolute;
-  z-index: -90;
-  left: -14px;
-  top: -112px;
+  z-index: 0;
+  left: -4px;
+  top: 50px;
 }
 
 .hindu8 {
   /* prasad */
   position: absolute;
-  z-index: -1;
-  left: 991px;
+  left: 1101px;
   top: 0px;
+  z-index: 0;
 }
 
 .hindu9 {
   /* camera */
   position: absolute;
-  left: 753px;
-  top: 94px;
+  left: 893px;
+  top: 160px;
 }
 
+.hindu10 {
+  /* bell */
+  position: absolute;
+  left: 803px;
+  top: 1px;
+}
+
+.hindu11 {
+  /*aarti*/
+  position: absolute;
+  left: 1003px;
+  top: 400px;
+}
 
 /* .hindu6:hover {
     background: url("images/hindu/hindu6.1.png") no-repeat;
 } */
-
-
 @font-face {
   font-family: 'IBM Plex Sans';
   src: url(IBM/IBM-Plex-Sans/IBMPlexSans-Regular.otf);

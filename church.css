@@ -9,10 +9,10 @@ html {
 
 body {
   background-color: #A8B8D2;
-    background-image: url('images/church/main.png');
-    background-size:     cover;                    
-      background-repeat:   no-repeat;
-      background-position: center center;
+  background-image: url('images/church/main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   font-family: 'IBM Plex Sans', 'Noto-Sans';
   font-weight: 300;
   height: 100%;
@@ -94,7 +94,7 @@ a:visited {
 
 .hindu1 {
   /* idol */
-    position: absolute;
+  position: absolute;
   left: -20px;
   top: 16px;
 }
@@ -160,12 +160,9 @@ a:visited {
   top: 94px;
 }
 
-
 /* .hindu6:hover {
     background: url("images/hindu/hindu6.1.png") no-repeat;
 } */
-
-
 @font-face {
   font-family: 'IBM Plex Sans';
   src: url(IBM/IBM-Plex-Sans/IBMPlexSans-Regular.otf);
