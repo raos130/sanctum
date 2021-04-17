@@ -1,3 +1,42 @@
+/* Start of Trudy's Code */
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.eng {
+  z-index: 100;
+  font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  color: #98AAD1;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  white-space: pre-line;
+}
+
+.popup {
+  z-index: 100;
+  width: 20vw;
+  border-radius: 10px;
+  background-color: #DDE2E4;
+  border: 2px solid #98AAD1;
+  display: none;
+}
+
+.popup-church, .popup-church2, .popup-church3, .popup-church4,.popup-church5, .popup-church6, .popup-church7{
+  position: absolute;
+  left: 50px;
+  margin-top: 4vw;
+  top: 4vw;
+  padding: 10px;
+  z-index: 2;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,11 +48,10 @@ html {
 
 body {
   background-color: #A8B8D2;
-  background-image: url('images/church/main.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  font-family: 'IBM Plex Sans', 'Noto-Sans';
+  font-family: 'IBM Plex Sans';
   font-weight: 300;
   height: 100%;
   margin: 0;
@@ -66,6 +104,7 @@ a:visited {
 }
 
 .fixed-header {
+  z-index:3;
   text-align: right;
   top: 0;
 }
@@ -92,77 +131,65 @@ a:visited {
   height: 20vw;
 }
 
-.hindu1 {
-  /* idol */
+.church {
+  /* building */
+  transform: rotate(27deg);
+  z-index: 0;
   position: absolute;
-  left: -20px;
-  top: 16px;
+  left: -60px;
+  top:300px;
 }
 
-.hindu2 {
-  /* praying hands */
+.church1 {
+  /* jesus */
   position: absolute;
-  z-index: 3;
-  left: 307px;
-  top: 173px;
+  z-index: 1;
+  left: 827px;
+  top: 80px;
 }
 
-.hindu3 {
-  /* thali */
+.church2 {
+  /* baptism bowl */
+    transform: rotate(-20deg);
   position: absolute;
-  left: 752px;
-  top: 220px;
+  z-index: 0;
+  left: 400px;
+  top: 300px;
 }
 
-.hindu4 {
-  /* flowers */
+.church3 {
+  /* necklace */
   position: absolute;
-  left: 463px;
-  top: 138px;
-  z-index: 2;
+  left: 320px;
+  top: -140px;
 }
 
-.hindu5 {
-  /* shoe */
+
+.church5 {
+  /*biscuit*/
   position: absolute;
-  left: 480px;
-  top: -31px;
-  z-index: -1;
+  z-index: 0;
+  left: 900px;
+  top: 174px;
 }
 
-.hindu6 {
-  /* cymbals */
+.church6 {
+  /* candle */
   position: absolute;
-  left: 113px;
-  top: 362px;
+  transform: rotate(-210deg);
+  left: -25px;
+  top: -120px;
 }
 
-.hindu7 {
-  /* donation boxes */
+.church7 {
+  /* painting */
   position: absolute;
-  z-index: -90;
-  left: -14px;
-  top: -112px;
+  z-index: 0;
+  left: 685px;
+  top: 340px;
 }
 
-.hindu8 {
-  /* prasad */
-  position: absolute;
-  z-index: -1;
-  left: 991px;
-  top: 0px;
-}
 
-.hindu9 {
-  /* camera */
-  position: absolute;
-  left: 753px;
-  top: 94px;
-}
-
-/* .hindu6:hover {
-    background: url("images/hindu/hindu6.1.png") no-repeat;
-} */
 @font-face {
   font-family: 'IBM Plex Sans';
   src: url(IBM/IBM-Plex-Sans/IBMPlexSans-Regular.otf);
